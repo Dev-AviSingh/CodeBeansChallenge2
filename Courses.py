@@ -24,4 +24,4 @@ for prerequisite in prerequisites:
 
 print(answer)
 
-x = input()
+_ = input()
