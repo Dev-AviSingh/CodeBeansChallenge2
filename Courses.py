@@ -19,7 +19,7 @@ answer = "True"
 
 # If the reverse of any prerequisite is present then the courses are impossible.
 for prerequisite in prerequisites:
-	if prerequisites[::-1] in prerequisites:
+	if prerequisite[::-1] in prerequisites:
 		answer = "False"
 
 print(answer)
